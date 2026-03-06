@@ -26,10 +26,10 @@ export default function RootLayout({ children }) {
       >
         <div className="w-screen h-screen flex flex-col justify-start items-center bg-black text-white">
           <Navbar />
-          <Footer />
           <div className='w-[99%] h-[80vh] flex flex-row justify-center items-center'>
             {children}
           </div>
+          <Footer />
         </div>
       </body>
     </html>
